@@ -8,4 +8,5 @@ b= int(input("Enter your first number: "))
 avg=(a+b)/2
 print("Average of these two numbers is:", avg,  ".")
 '''
+print("All are being fine")
 
