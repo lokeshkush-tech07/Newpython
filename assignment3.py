@@ -136,4 +136,14 @@
 # print("Number of spaces: ", count)
 
 # Q8. Write a program to check wheather two lists share no common elements.
+# list1 = [5, 4, 2, 8, 1]
+# list2 = [9, 3, 6]
+
+# for ch in list1:
+#     if ch in list2:
+#         print("Share common list")
+#         break
+# else:
+#     print("Share no common list")
+
 
