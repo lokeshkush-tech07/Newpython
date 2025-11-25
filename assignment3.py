@@ -146,4 +146,15 @@
 # else:
 #     print("Share no common list")
 
+# Q9. Given a list, print all elements that appear more than once in the list.
+
+# list = [4,2,2,8,5,3,8]
+# new_list = []
+
+# for num in list:
+#     if num in new_list:
+#         print
+#     else:
+#         new_list.append(num)
+# print("This is the new list without dubplicate: ", new_list) 
 
