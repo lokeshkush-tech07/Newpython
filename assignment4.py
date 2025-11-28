@@ -321,17 +321,35 @@ then create a class Bear that inferts from all the above classes to showcase how
 works.'''
 
 # class Herbivore():
-#     def __init__(self, ):
-#         self.
+#     def __init__(self):
+#         self.plant_food = "Grass", "Plants"
+
+#     def eat_plant(self):
+#         print(f"I eat Plant only")
 
 # class Carnivore():
-#     def __init__(self, ):
-#         self.
+#     def __init__(self):
+#         self.meat = "Meat"
+
+#     def eat_meat(self):
+#         print(f"I eat meat")
 
 # class Omnivore():
-#     def __init__(self, ):
-#         self.
+#     def __init__(self):
+#         self.meat_plants = "Meat and Plants both"
+
+#     def meat_plants(self):
+#         print(f"I eat plants and meat both")
 
 # class Bear(Herbivore, Carnivore, Omnivore):
-#     def __init__(self, ):
-#         self.
+#     def __init__(self):
+#         Herbivore.__init__(self)
+#         Carnivore.__init__(self)
+#         Omnivore.__init__(self)
+#         self.name = "Bear"
+
+#     def bear_info(self):
+#         print(f"I am bear and I eat plants, meat, and Honey..")
+
+# B = Bear()
+# B.bear_info()
